@@ -76,7 +76,7 @@ receivers:
               regex: 'otelcol_processor_batch_.*'
               action: drop
   signalfx:
-    endpoint: 0.0.0.0:12010
+    endpoint: 0.0.0.0:9943
     # Whether to preserve incoming access token and use instead of exporter token
     # default = false
     #access_token_passthrough: true
